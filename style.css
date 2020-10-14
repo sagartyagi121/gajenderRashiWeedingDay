@@ -3,9 +3,14 @@
 html {
     height: 100%;
     overflow: hidden;
-  }
-  body {
     background: url("https://www.tatacliq.com/que/wp-content/uploads/2016/12/playlist-traditional-wedding-featured.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  body {
     color: #fff;
     font-family: sans-serif;
     text-align: center;
@@ -13,6 +18,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   h1 {
     font-size: 4rem;
