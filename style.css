@@ -9,7 +9,6 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
-
   body {
     color: #fff;
     font-family: sans-serif;
@@ -31,6 +30,9 @@ html {
   }
   a {
     color: #fff;
+  }
+  li {
+      padding: 5px;
   }
   #countdown {
     max-width: 600px;
