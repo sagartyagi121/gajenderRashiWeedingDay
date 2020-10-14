@@ -53,4 +53,7 @@ html {
     font-size: 12px;
   }
   
-  
+  #inviteline {
+    font-size: 2rem;  
+    text-shadow: 1px 1px 2px #000;
+  }
