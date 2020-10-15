@@ -31,8 +31,10 @@ html {
   a {
     color: #fff;
   }
-  li {
-      padding: 5px;
+  button {
+    background-color:powderblue;
+    font-family:courier;
+    font-size:160%
   }
   #countdown {
     max-width: 600px;
@@ -70,6 +72,10 @@ html {
     background: linear-gradient( crimson , crimson) white no-repeat 0 0;
     background-size: 0 100%;
     animation: stripes 6s linear infinite forwards;
+  }
+
+  #address{
+    color:blue;
   }
 
   @keyframes stripes {
