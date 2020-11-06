@@ -71,7 +71,7 @@ html {
   .pProgramDates {
     background: linear-gradient( crimson , crimson) white no-repeat 0 0;
     background-size: 0 100%;
-    animation: stripes 6s linear infinite forwards;
+    animation: stripes 6s linear 1 forwards;
   }
 
   #address{
