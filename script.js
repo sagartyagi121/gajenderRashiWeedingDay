@@ -16,7 +16,7 @@
     document.getElementById("seconds").innerText = Math.floor( (remaining % min) / sec );
     if (remaining < 0) {
       document.querySelector("h1").innerText = "🤩It's Wedding 💒 time!";
-      document.querySelector("p").innerHTML = "The big day 🎉 is finally here - Enjoy the Day 🎊🎉:)";
+      document.querySelector("p").innerHTML = "The big day 🎉 is finally here - Enjoy the Day 🎊🎉";
       const digit = document.querySelectorAll("span");
       digit.forEach((digit) => {
         digit.innerText = "0";
