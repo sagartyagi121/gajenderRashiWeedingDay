@@ -1,4 +1,4 @@
-# gajenderRashiWeedingDay
+# JitendraWedsKritika
 countdown to our wedding date :) 
 
 
