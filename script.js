@@ -14,6 +14,7 @@
     document.getElementById("hours").innerText = Math.floor( (remaining % day) / hour );
     document.getElementById("minutes").innerText = Math.floor( (remaining % hour) / min );
     document.getElementById("seconds").innerText = Math.floor( (remaining % min) / sec );
+    sprinkle();
     if (remaining < 0) {
       document.querySelector("h1").innerText = "🤩It's Wedding 💒 time!";
       document.querySelector("p").innerHTML = "The big day 🎉 is finally here - Enjoy the Day 🎊🎉";
@@ -25,3 +26,17 @@
     }
   }, 1000);
 })();
+
+
+function sprinkle() {
+party.screen({ 
+  count: 500 * (window.innerWidth / 1980),
+  countVariation: 0.5,
+  angleSpan: 0,
+  yVelocity: -100,
+  yVelocityVariation: 2,
+  rotationVelocityLimit: 6,
+  scaleVariation: 0.8
+});
+}
+
